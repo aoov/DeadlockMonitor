@@ -6,6 +6,8 @@ A lightweight Python program that monitors your Deadlock game window in real tim
 
 Deadlock Monitor captures the game window and checks specific pixel colors on screen to determine ability states. When a channeling ability is detected, the corresponding text file is updated — making it easy for external tools like stream overlays or macros to react to in-game ability usage.
 
+
+Deadlock must be running before this program!
 ## Output Files
 
 | File | Ability | Value |
