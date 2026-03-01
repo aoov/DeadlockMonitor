@@ -2,6 +2,14 @@
 
 A lightweight Python program that monitors your Deadlock game window in real time, detecting when your character is channeling their ultimate (4) or 3 ability.
 
+## Possible uses:
+
+Since the ability states are written to simple text files, any program that can watch file contents can react to them. For example:
+
+- **PNGtuber changes** — swap your avatar expression when channeling
+- **Stream overlays** — trigger animations or alerts on screen
+- **Macros** — automate actions based on ability state
+
 ## How It Works
 
 Deadlock Monitor captures the game window and checks specific pixel colors on screen to determine ability states. When a channeling ability is detected, the corresponding text file is updated — making it easy for external tools like stream overlays or macros to react to in-game ability usage.
